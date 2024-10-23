@@ -16,5 +16,11 @@ public class main {
         System.out.println("Enter your age:");
         age = scanner.nextInt();
 
+        System.out.println (userrName);
+
+        System.out.println (password);
+
+        System.out.println (age);
+
     }
 }
