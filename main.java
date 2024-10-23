@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class main {
 
     public static void main(String[] args) {
-        String userrName;
+        String userName;
         String password;
         int age;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter user Name:");
-        userrName = scanner.nextLine();
+        userName = scanner.nextLine();
 
         System.out.println("Enter password:");
         password = scanner.nextLine();
@@ -16,12 +16,17 @@ public class main {
         System.out.println("Enter your age:");
         age = scanner.nextInt();
 
-        System.out.println (userrName);
+        System.out.println (userName);
 
         System.out.println (password);
 
         System.out.println (age);
 
+
+if (userName.isEmpty()){
+System.out.println("Enter your name");
+
+}
 
 
     }
